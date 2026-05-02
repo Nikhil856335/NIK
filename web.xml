@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>ResumeServlet</servlet-name>
+        <servlet-class>ResumeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ResumeServlet</servlet-name>
+        <url-pattern>/ResumeServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
